@@ -2,19 +2,93 @@
   <head>
      <link rel="stylesheet" type="text/css" href="css.css">
   </head>
-  <body>
-    <script src="jss.js"></script>
+    <head>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" type="text/css" href="css.css">
+    </head>
+    <body>
+      <script src="jss.js"></script>
+      <canvas id="ovalo" class="micanvas canvas_ovalo"></canvas>
+      <canvas id="micanvas" class="micanvas canvas_play"></canvas>
+      <div class="segunda_cabecera transparente">
+          <ul class="menu" >
+              <li id="como_jugar" class="menu_li" onmouseover="ver(1)" onmouseout="ocultar(1)">
+                Como jugar
+                <ul id="1" class="menu_desplegable">
+                  <li><a id="a_tematica" href="#tematica"> Tématica</a></li>
+                  <li><a href="#instrucciones"> Instrucciones</a></li>
+                </ul>
+              </li>
+              <li class="menu_li"  onmouseover="ver(2)" onmouseout="ocultar(2)">
+                Autores
+                <ul id="2"class="menu_desplegable">
+                  <li><a href="#Cesar"> Cesar</a></li>
+                  <li><a href="#Irene"> Irene</a></li>
+                  <li><a href="#Caleb"> Caleb</a></li>
+                  <li><a href="#Jaime"> Jaime</a></li>
+                </ul>
+              </li>
+              <li class="menu_li"  onmouseover="ver(3)" onmouseout="ocultar(3)">
+                Desarrolo
+                <ul id="3"class="menu_desplegable">
+                  <li><a href="#responsabilidades"> Responsabilidades</a></li>
+                  <li><a href="#tecnicasytecnologias"> Técnicas y tecnologías</a></li>
+                  <li><a href="#problemasydificultades"> Problemas y dificultades</a></li>
+                  <li><a href="#puntosfuertes"> Puntos fuertes</a></li>
+                  <li><a href="#planificacion"> Planificación</a></li>
+                </ul>
+              </li>
+              <li class="menu_li" >
+                <a href="#referencias"> Referencias</a>
+              </li>
+          </ul>
+      </div>
+      <div class="background" id="background"></div>
 
-    <div class="segunda_cabecera transparente">
-        <ul class="menu">
-            <li id="menu1" class="m" >menu1</li>
-            <li id="menu2" class="m">menu2</li>
-            <li id="menu3" class="m">menu3</li>
 
-        </ul>
-    </div>
-    <!--<div class="segunda_cabecera">segunda prueba</div>-->
-    <div class="background" id="background"></div>
+        <section id="4" class="secciones">
+          <h2>Cómo jugar</h2>
+          <h3><a name="tematica"></a>Temática</h3>
+            <p>lo que sea</p>
+          <h3><a name="instrucciones"></a>Instrucciones</h3>
+            <p class="instrucciones">lo que sea</p>
+        </section>
+        <section id="5" class="secciones" value="ocultar(5)" onclick="ver(5)">
+          <h2>Autores</h2>
+          <h3><a name="Cesar"></a>Cesar</h3>
+            <p>lo que sea</p>
+          <h3><a name="Irene"></a>Irene</h3>
+            <p>lo que sea</p>
+          <h3><a name="Caleb"></a>Caleb</h3>
+            <p>lo que sea</p>
+          <h3><a name="Jaime"></a>Jaime</h3>
+            <p>lo que sea</p>
+        </section>
+        <section id="6" class="secciones" value="ocultar(6)" onclick="ver(6)">
+          <h2>Desarrollo</h2>
+          <h3><a name="responsabilidades"></a>Responsabilidades</h3>
+            <p>lo que sea</p>
+          <h3><a name="tecnicasytecnologias"></a>Irene</h3>
+            <p>lo que sea</p>
+          <h3><a name="problemasydificultades"></a>Problemas y dificultades</h3>
+            <p>lo que sea</p>
+          <h3><a name="puntosfuertes"></a>Puntos fuertes</h3>
+            <p>lo que sea</p>
+          <h3><a name="planificacion"></a>Planificación</h3>
+            <p>lo que sea</p>
+        </section>
+        <section id="7" class="secciones" value="ocultar(7)" onclick="ver(7)">
+          <h2><a name="referencias"></a>Referencias</h2>
+            <ul>
+              <li>ref 1</li>
+              <li>ref 2</li>
+              <li>ref 3</li>
+              <li>ref 4</li>
+            </ul>
+        </section>
+      <!--<div class="segunda_cabecera">segunda prueba</div>-->
 
-  </body>
-</html>
+
+
+    </body>
+  </html>

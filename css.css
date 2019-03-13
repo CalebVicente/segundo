@@ -1,10 +1,9 @@
-
 .segunda_cabecera{
   position: absolute;
   right: 0%;
   width: 100%;
   height: 5%;
-  background-color: grey;
+  background-color: gray;
   text-align:center;
   padding:1%;
 }
@@ -15,27 +14,91 @@
 .menu{
   width: 50%;
   border: 1px solid #000;
-  margin-left: 70%;
   margin-right: 0%;
   color: white;
   margin: 0 auto;
   text-align: center;
+  padding-left: 50%;
 
 }
-li{
+.menu_li{
 
-  width: 30%;
+  width: 20%;
   height: 100%;
-  opacity: ;
   display: inline-block;
   border: 1px solid #000;
   text-align: center;
-  margin-right: 2%;
+
+  /*margin-right: 2%;*/
   /* or whatever */
   /*padding-right: 10%;
   padding-top:3%;*/
 }
 
+.enlaces{
+
+  border: 1px solid #000;
+}
+
+.menu_desplegable{
+  display:none;
+  padding:0px;
+  margin-top: 12%;
+  background-color: grey;
+}
+
+.menu_desplegable li{
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  text-align: center;
+  opacity:1;
+
+}
+.menu_desplegable li a{
+  color:white;
+  font-size: 70%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration:none;
+}
+
+
+
+.background{
+  border-style:solid;
+  border-width:1px;
+  height: 100%;
+}
+
+.secciones{
+  display:none;
+}
+
+.micanvas{
+  position: absolute;
+  top:40%;
+  left:35%;
+  width: 30%;
+  height: 30%;
+}
+.canvas_play{
+  z-index:9;
+  width: 20% !important;
+  height: 20% !important;
+  top:45% !important;
+  left:40% !important;
+}
+.canvas_ovalo{
+  z-index:1;
+}
+.letras_play{
+  z-index: 10;
+}
+
+.m:hover {
+  background-color: white;
+}
 
 .paralelogramo {
   position:absolute;
@@ -47,19 +110,4 @@ li{
   border-top: 100px solid grey;
   opacity: 0.7;
   text-align: center;
-}
-.background{
-  border-style:solid;
-  border-width:1px;
-  height: 100%;
-}
-.canva1{
-  background-color:brown;
-  width:  70%;
-  height: 10%;
-  background-color: #4f0211;
-}
-
-.m:hover {
-  background-color: white;
 }
